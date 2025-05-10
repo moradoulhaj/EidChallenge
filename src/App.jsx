@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./App.css";
 
 function App() {
-  const eidDate = new Date(2025, 2, 30, 0, 0, 0).getTime();
+  const eidDate = new Date(2025, 6, 6, 0, 0, 0).getTime();
 
   const getTimeLeft = () => {
     const now = new Date().getTime();
